@@ -35,8 +35,8 @@
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.txtServerName = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtUserName = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btDangnhap = new DevComponents.DotNetBar.ButtonX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -112,28 +112,28 @@
             this.txtServerName.Size = new System.Drawing.Size(121, 20);
             this.txtServerName.TabIndex = 9;
             // 
-            // textBoxX2
+            // txtUserName
             // 
             // 
             // 
             // 
-            this.textBoxX2.Border.Class = "TextBoxBorder";
-            this.textBoxX2.Location = new System.Drawing.Point(184, 117);
-            this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.Size = new System.Drawing.Size(121, 20);
-            this.textBoxX2.TabIndex = 10;
-            this.textBoxX2.TextChanged += new System.EventHandler(this.textBoxX2_TextChanged);
+            this.txtUserName.Border.Class = "TextBoxBorder";
+            this.txtUserName.Location = new System.Drawing.Point(184, 117);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(121, 20);
+            this.txtUserName.TabIndex = 10;
+            this.txtUserName.TextChanged += new System.EventHandler(this.textBoxX2_TextChanged);
             // 
-            // textBoxX3
-            // 
-            // 
+            // txtPassword
             // 
             // 
-            this.textBoxX3.Border.Class = "TextBoxBorder";
-            this.textBoxX3.Location = new System.Drawing.Point(184, 176);
-            this.textBoxX3.Name = "textBoxX3";
-            this.textBoxX3.Size = new System.Drawing.Size(121, 20);
-            this.textBoxX3.TabIndex = 11;
+            // 
+            // 
+            this.txtPassword.Border.Class = "TextBoxBorder";
+            this.txtPassword.Location = new System.Drawing.Point(184, 176);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(121, 20);
+            this.txtPassword.TabIndex = 11;
             // 
             // btDangnhap
             // 
@@ -156,8 +156,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBoxX3);
-            this.groupBox1.Controls.Add(this.textBoxX2);
+            this.groupBox1.Controls.Add(this.txtPassword);
+            this.groupBox1.Controls.Add(this.txtUserName);
             this.groupBox1.Controls.Add(this.txtServerName);
             this.groupBox1.Controls.Add(this.labelX5);
             this.groupBox1.Controls.Add(this.labelX4);
@@ -197,8 +197,8 @@
         private DevComponents.DotNetBar.LabelX labelX4;
         private DevComponents.DotNetBar.LabelX labelX5;
         private DevComponents.DotNetBar.Controls.TextBoxX txtServerName;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX2;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX3;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtUserName;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtPassword;
         private DevComponents.DotNetBar.ButtonX btDangnhap;
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private System.Windows.Forms.GroupBox groupBox1;
