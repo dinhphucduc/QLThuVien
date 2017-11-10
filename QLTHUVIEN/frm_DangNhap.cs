@@ -35,7 +35,7 @@ namespace QLTHUVIEN
 
         private void frm_DangNhap_Load(object sender, EventArgs e)
         {
-            txtServerName.text = "localhost";
+            txtServerName.Text= "localhost";
             cbAuthentication.SelectedIndex = 0;
         }
 
@@ -66,6 +66,16 @@ namespace QLTHUVIEN
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
