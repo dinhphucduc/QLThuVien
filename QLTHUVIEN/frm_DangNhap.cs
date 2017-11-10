@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace QLTHUVIEN
 {
@@ -17,19 +16,36 @@ namespace QLTHUVIEN
             InitializeComponent();
         }
 
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void textBoxX2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void frm_DangNhap_Load(object sender, EventArgs e)
         {
-            txtServerName.Text = "localhost";
+            txtServerName.Text= "localhost";
             cbAuthentication.SelectedIndex = 0;
         }
 
         private void cbAuthentication_SelectedIndexChanged(object sender, EventArgs e)
         {
             bool hide = true;
-            if (cbAuthentication.SelectedIndex == 0)
+            if (cbAuthentication == 0)
                 hide = false;
-            txtUserName.Enabled = hide;
-            txtPassword.Enabled = hide;
+            txtUserName.Enable = hide;
+            txtPassword.Enable = hide;
         }
 
         private void btDangnhap_Click(object sender, EventArgs e)
@@ -37,7 +53,7 @@ namespace QLTHUVIEN
             if (cbAuthentication.SelectedIndex == 0)
                 LOP.XL_BANG.Chuoi_lien_ket = "Data Source=" + txtServerName.Text + ";Initial Catalog=QLTHUVIEN;Intergrated Scurity=True";
             else
-                LOP.XL_BANG.Chuoi_lien_ket = "Data Source=" + txtServerName.Text + ";Initial Catalog=QLTHUVIEN;User ID=" + txtUserName.Text + ";Password=" + txtPassword.text;
+                LOP.XL_BANG.Chuoi_lien_ket = "Data Source=" + txtServerName.Text + ";Initial Catalog=QLTHUVIEN;User ID=" + txtUserName.Text + ";Password=" + txtPasswoed.text;
             sqlConnection cnn = new sqlConnection(LOP.XL_BANG.Chuoi_lien_ket);
             try
             {
@@ -51,6 +67,15 @@ namespace QLTHUVIEN
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
-
-
+}
