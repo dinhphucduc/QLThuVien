@@ -16,22 +16,11 @@ namespace QLTHUVIEN
             InitializeComponent();
         }
 
-        private void labelX3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelX2_Click(object sender, EventArgs e)
-        {
-
-        }
 
 
 
-        private void textBoxX2_TextChanged(object sender, EventArgs e)
-        {
 
-        }
+
 
         private void frm_DangNhap_Load(object sender, EventArgs e)
         {

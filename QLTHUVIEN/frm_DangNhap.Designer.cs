@@ -71,7 +71,6 @@
             this.labelX2.Size = new System.Drawing.Size(91, 23);
             this.labelX2.TabIndex = 5;
             this.labelX2.Text = "Server Name";
-            this.labelX2.Click += new System.EventHandler(this.labelX2_Click);
             // 
             // cb_Authentication
             // 
@@ -81,7 +80,6 @@
             this.cb_Authentication.Size = new System.Drawing.Size(91, 23);
             this.cb_Authentication.TabIndex = 6;
             this.cb_Authentication.Text = "Authentication";
-            this.cb_Authentication.Click += new System.EventHandler(this.labelX3_Click);
             // 
             // labelX4
             // 
