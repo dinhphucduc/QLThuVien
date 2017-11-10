@@ -54,6 +54,12 @@
     <Compile Include="Class\XL_THELOAI.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="frm_BANDOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BANDOC.Designer.cs">
+      <DependentUpon>frm_BANDOC.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Class\XL_NHAXUATBAN.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="frm_BANDOC.resx">
+      <DependentUpon>frm_BANDOC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
     </EmbeddedResource>
