@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace QLTHUVIEN
 {
-    public partial class frm_BANDOC : Form
+    public partial class frm_BANDOC: Form
     {
         public frm_BANDOC()
         {
             InitializeComponent();
+        }
+
+        private void textBoxX4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
