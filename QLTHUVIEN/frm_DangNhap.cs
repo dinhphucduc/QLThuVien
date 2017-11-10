@@ -39,7 +39,7 @@ namespace QLTHUVIEN
 
         private void btDangnhap_Click(object sender, EventArgs e)
         {
-            object LOP = null;
+
             if (cbAuthentication.SelectedIndex == 0)
                 LOP.XL_BANG.Chuoi_lien_ket = "Data Source=" + txtServerName.Text + ";Initial Catalog=QLTHUVIEN;Intergrated Scurity=True";
             else
