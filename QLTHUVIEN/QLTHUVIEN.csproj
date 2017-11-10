@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar2">
-      <HintPath>..\..\..\..\Downloads\CSDL-20171110\DevComponents.DotNetBar2.dll</HintPath>
+      <HintPath>C:\Users\107\Downloads\CSDL-20171110\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
