@@ -48,10 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\XL_SACH.cs">
+    <Compile Include="LOP\XL_SACH.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Class\XL_THELOAI.cs">
+    <Compile Include="LOP\XL_THELOAI.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="frm_BANDOC.cs">
@@ -80,10 +80,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XL_BANG .cs">
+    <Compile Include="LOP\XL_BANG .cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Class\XL_NHAXUATBAN.cs">
+    <Compile Include="LOP\XL_NHAXUATBAN.cs">
       <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="frm_BANDOC.resx">

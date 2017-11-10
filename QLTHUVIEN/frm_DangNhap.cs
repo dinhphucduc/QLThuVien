@@ -42,14 +42,15 @@ namespace QLTHUVIEN
         private void cbAuthentication_SelectedIndexChanged(object sender, EventArgs e)
         {
             bool hide = true;
-            if (cbAuthentication == 0)
+            if (cbAuthentication.SelectedIndex == 0)
                 hide = false;
-            txtUserName.Enable = hide;
-            txtPassword.Enable = hide;
+            txtUserName.Enabled = hide;
+            txtPassword.Enabled = hide;
         }
 
         private void btDangnhap_Click(object sender, EventArgs e)
         {
+            object LOP = null;
             if (cbAuthentication.SelectedIndex == 0)
                 LOP.XL_BANG.Chuoi_lien_ket = "Data Source=" + txtServerName.Text + ";Initial Catalog=QLTHUVIEN;Intergrated Scurity=True";
             else
